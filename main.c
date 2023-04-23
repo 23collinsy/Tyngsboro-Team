@@ -23,7 +23,7 @@ int main()
     set_servo_position(2,1900);
     msleep(500);
     set_servo_position(1,415);
-    msleep(1000);
+    msleep(1500);
     motor(0,45);
     motor(1,50);
     msleep(1300);
@@ -34,7 +34,7 @@ int main()
     msleep(1000);
     motor(0,-25);
     motor(1,-55);
-    msleep(2050);
+    msleep(2100);
     set_servo_position(2,1400);
    while ((digital (0) == 0) || (digital (3) == 0))
           {
@@ -43,7 +43,7 @@ int main()
           }
     motor(1,-75);
     motor(0,75);
-    msleep(1000);
+    msleep(1300);
     ao();
     set_servo_position(2,2047);
      while ((digital (0) == 0) || (digital (3) == 0))
