@@ -22,20 +22,20 @@ int main()
     ao();
     set_servo_position(2,1900);
     msleep(500);
-    set_servo_position(1,406);
+    set_servo_position(1,415);
     msleep(1000);
     motor(0,45);
     motor(1,50);
     msleep(1300);
     ao();
-    set_servo_position(1,850);
+    set_servo_position(1,900);
     msleep(1000);
     set_servo_position(2,1190);// grabs cube
     msleep(1000);
     motor(0,-25);
     motor(1,-55);
     msleep(2050);
-    set_servo_position(2,1500);
+    set_servo_position(2,1400);
    while ((digital (0) == 0) || (digital (3) == 0))
           {
               motor (0,-80);
